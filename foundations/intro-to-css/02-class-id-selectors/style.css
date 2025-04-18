@@ -1,8 +1,14 @@
 .class{
     background-color: pink;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: mediumS;
+    font-size: medium;
 }
 .class.cool{
-    font-size: large;
+    font-size: 24px;
+}
+#id1{
+    color: blue;
+    font-size: 32px;
+    font-weight: bold;
+    font-family:'Times New Roman', serif
 }
