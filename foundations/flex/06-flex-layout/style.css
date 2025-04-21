@@ -26,7 +26,7 @@ input {
 }
 
 /* my solution */
-.header{
+.header /* top part */ {
   display: flex;
   justify-content: space-between;
   padding: 8px;
@@ -37,7 +37,33 @@ ul{
   list-style-type: none; /* removes the dots */
 }
 
+a{
+  text-decoration: none; /* removes the blue lines */
+  color: #494949;
+}
+
 .left-links,
 .right-links{
+  padding: 16px;
   gap: 16px;
 }
+
+/* end of top part */
+
+.content /* middle */{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons{
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+}
+button{
+  padding: 12px;
+}
+
+/* end of middle part */
