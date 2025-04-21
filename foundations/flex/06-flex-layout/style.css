@@ -50,11 +50,17 @@ a{
 
 /* end of top part */
 
+body{
+  display: flex;
+  flex-direction: column;
+}
 .content /* middle */{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 16px;
+  flex: 1;
 }
 
 .buttons{
@@ -67,3 +73,9 @@ button{
 }
 
 /* end of middle part */
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  background-color: #eeeeee;
+}
