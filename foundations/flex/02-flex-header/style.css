@@ -25,16 +25,17 @@ a {
 }
 
 /* my solution */
-
 .header{
-  padding: 8px;
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   align-items: center;
+  padding: 8px;
+  margin: 0;
 }
+
 ul{
   display: flex;
-  margin: 0;
   padding: 0;
+  margin: 8px;
   gap: 8px;
 }
