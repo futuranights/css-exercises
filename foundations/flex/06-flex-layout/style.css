@@ -24,3 +24,20 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+/* my solution */
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+ul{
+  display: flex;
+  list-style-type: none; /* removes the dots */
+}
+
+.left-links,
+.right-links{
+  gap: 16px;
+}
